@@ -137,3 +137,60 @@
     }
   }
 }
+
+/* Package Boxes */
+
+.p-box-1,
+.p-box-2,
+.p-box-3 {
+  text-align: center;
+
+  .fa {
+    font-size: 60px;
+  }
+
+  .features {
+    margin: 20px 0 30px 0;
+
+    li {
+      padding: 10px 0 10px 0;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+}
+
+.p-box-1 {
+  .fa {
+    color: $primary;
+  }
+
+  .pricing span {
+    font-size: 35px;
+    font-weight: 700;
+    color: $primary;
+  }
+}
+
+.p-box-2 {
+  .fa {
+    color: $secondary;
+  }
+
+  .pricing span {
+    font-size: 35px;
+    font-weight: 700;
+    color: $primary;
+  }
+}
+
+.p-box-3 {
+  .fa {
+    color: $extra;
+  }
+
+  .pricing span {
+    font-size: 35px;
+    font-weight: 700;
+    color: $primary;
+  }
+}
