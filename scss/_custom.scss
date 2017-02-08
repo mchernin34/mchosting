@@ -85,6 +85,7 @@
 .showcase {
   background: url('../img/showcase.jpg') no-repeat -100px 0;
   color: $white;
+  min-height: 450px;
 
   .showcase-box {
     padding: 20px 30px;
@@ -117,6 +118,22 @@
       a {
         color: $white;
       }
+    }
+  }
+}
+
+/* Domain Search */
+
+.domain-search {
+  background: $light-gray;
+  padding: 30px 20px 20px 20px;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 30px;
+
+  .domain-form {
+    input,
+    .input-group-label {
+      border-color: $medium-light-gray;
     }
   }
 }
